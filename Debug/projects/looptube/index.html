@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>LoopTube</title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div id="player"></div>
+      <script src="js/iframe_api.js"></script>
+      <script>
+         const PLAYLIST_ID = "PLw35prD_PecItXU8QwU7dKDBqeGkYDbsQ";
+         var player;
+
+         function onYouTubeIframeAPIReady() {
+            const playerVars = {
+               listType: "playlist",
+               list: PLAYLIST_ID,
+               autoplay: 1,
+               controls: 0,
+               disablekb: 1,
+               fs: 0,
+               modestbranding: 1,
+               rel: 0,
+               iv_load_policy: 3,
+               loop: 1,
+               enablejsapi: 1
+            };
+
+            // Em file:// a origem vira "null", então não definir origin nesse caso
+            if (window.location.origin && window.location.origin !== "null") {
+               playerVars.origin = window.location.origin;
+            }
+
+            player = new YT.Player("player", {
+               width: "100%",
+               height: "100%",
+               playerVars,
+               events: {
+                  onReady: function (e) {
+                     e.target.playVideo();
+                  },
+                  onError: function (e) {
+                     console.log("Erro código:", e.data);
+                     if (e.data === 150 || e.data === 153) {
+                        setTimeout(function () { e.target.nextVideo(); }, 500);
+                     }
+                  },
+                  onStateChange: function (e) {
+                     if (e.data === YT.PlayerState.ENDED || e.data === YT.PlayerState.PAUSED) {
+                        setTimeout(function () { e.target.playVideo(); }, 500);
+                     }
+                  }
+               }
+            });
+         }
+
+         // Botão "Voltar" do controle remoto (Tizen)
+         document.addEventListener("tizenhwkey", function (e) {
+            if (e.keyName === "back") {
+               try {
+                  tizen.application.getCurrentApplication().exit();
+               } catch (_) {
+                  // fallback
+                  window.close();
+               }
+            }
+         });
+
+         window.addEventListener("keydown", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+         }, true);
+      </script>
+   </body>
+</html>

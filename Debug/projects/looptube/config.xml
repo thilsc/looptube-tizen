@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:tizen="http://tizen.org/ns/widgets"
+        id="http://thiago.com/looptube"
+        version="1.0.0">
+
+  <name>LoopTube TV</name>
+
+  <tizen:application id="APPID00001.LoopTube"
+                     package="APPID00001"
+                     required_version="6.0"/>
+
+  <content src="index.html"/>
+
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
+
+  <access origin="https://www.youtube.com" subdomains="true"/>
+  <access origin="https://*.ytimg.com" subdomains="true"/>
+  <access origin="https://*.googlevideo.com" subdomains="true"/>
+
+  <tizen:setting background-support="enable"
+                 hwkey-event="enable"/>
+</widget>

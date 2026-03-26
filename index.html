@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="origin">
+  <title>LoopTube</title>
+  <style>
+    html, body { margin:0; width:100%; height:100%; background:#000; }
+    iframe { width:100%; height:100%; border:0; }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://www.youtube.com/embed/oXSfDbOg5SY?autoplay=1&controls=0&loop=1&playlist=oXSfDbOg5SY&rel=0&modestbranding=1"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    referrerpolicy="origin"
+    allowfullscreen>
+  </iframe>
+
+  <script>
+    document.addEventListener("tizenhwkey", function (e) {
+      if (e.keyName === "back") {
+        try { tizen.application.getCurrentApplication().exit(); }
+        catch (_) { window.close(); }
+      }
+    });
+  </script>
+</body>
+</html>
