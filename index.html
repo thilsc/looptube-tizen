@@ -2,22 +2,89 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="referrer" content="origin">
   <title>LoopTube</title>
   <style>
-    html, body { margin:0; width:100%; height:100%; background:#000; }
-    iframe { width:100%; height:100%; border:0; }
+    html, body { margin:0; width:100%; height:100%; background:#000; overflow:hidden; }
+    #player, #player iframe { width:100%; height:100%; border:0; }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://www.youtube.com/embed/oXSfDbOg5SY?autoplay=1&controls=0&loop=1&playlist=oXSfDbOg5SY&rel=0&modestbranding=1"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    referrerpolicy="origin"
-    allowfullscreen>
-  </iframe>
+  <div id="player"></div>
 
   <script>
+    // Carrega a IFrame API
+    var tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(tag);
+
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player("player", {
+        width: "100%",
+        height: "100%",
+        playerVars: {
+          listType: "playlist",
+          list: "PLw35prD_PecItXU8QwU7dKDBqeGkYDbsQ", // sua playlist
+          autoplay: 1,       // autoplay
+          controls: 0,       // oculta controles
+          disablekb: 1,      // desativa teclado padrão do player
+          fs: 0,             // oculta botão fullscreen
+          modestbranding: 1, // oculta logo YouTube
+          rel: 0,
+          iv_load_policy: 3, // oculta anotações
+          loop: 1,
+          enablejsapi: 1,
+          origin: window.location.origin
+        },
+        events: {
+          onReady: function (e) {
+            e.target.setVolume(100);
+            e.target.playVideo();
+          },
+          onError: function (e) {
+            console.log("Erro:", e.data);
+            if (e.data === 150 || e.data === 153) {
+              setTimeout(function () { e.target.nextVideo(); }, 500);
+            }
+          },
+          onStateChange: function (e) {
+            // Reinicia se terminar
+            if (e.data === YT.PlayerState.ENDED) {
+              e.target.playVideo();
+            }
+          }
+        }
+      });
+    }
+
+    // Controle remoto
+    document.addEventListener("keydown", function (e) {
+      if (!player) return;
+      switch (e.keyName || e.key) {
+        case "Enter":
+        case "MediaPlayPause":
+        case " ":
+          if (player.getPlayerState() === YT.PlayerState.PLAYING) {
+            player.pauseVideo();
+          } else {
+            player.playVideo();
+          }
+          break;
+        case "ArrowRight":
+        case "MediaFastForward":
+          player.nextVideo();
+          break;
+        case "ArrowLeft":
+        case "MediaRewind":
+          player.previousVideo();
+          break;
+      }
+      e.preventDefault();
+      e.stopPropagation();
+    }, true);
+
+    // Botão voltar (Tizen)
     document.addEventListener("tizenhwkey", function (e) {
       if (e.keyName === "back") {
         try { tizen.application.getCurrentApplication().exit(); }
