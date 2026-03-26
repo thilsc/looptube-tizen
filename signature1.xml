@@ -2,6 +2,591 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
+<Reference URI=".buildResult%2F.git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LGUyyelGtzCdedTH0BqLgk9x3iBFQqm+4+dQXVVuO6+qYjqOpSHje8BXFo9j6HAHsdi6HGFW4EGs
+eaqbVg9Ulg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i8nxfwYow86TXdrD0VzUgqdWeX8ZKHpKW5bg4883z5DEIZSbLoLWVxSydMi0VaxSLYgSO+g+4u/Y
+XqxfupTKgA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2FORIG_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>22zqL8mShraDFIf7YzrZjbJ7+h/yM4hwT62P/ynjWgmw4ox3Rtb2gRpLeSjxLt00W3xgX4D4Kib7
+3+MeXwu4Zg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+FS91sSTD4cXRLwBCdynZ7sTiwb9w12BkQKZgDQAzZ+sXgzHnWrl2phSW55wsgiAghJ0o/9FwlG
+OXuTRhG0cQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>U2zOgE2E4lgTmT790kBTe1LQDOnNzs8ZgvhQltVqUhKQEEyCXACzcLJ1IgGVKpYWo/TijF0npbTk
+hCEBov+b7g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1rt/p0f0YlrfGHf1RlZcvoEsp91BaPfpBo5nMlVdhzfrpUlUbPWUZknj843oLRc6r5wWCkyflEVl
+Uli0xflV6w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UWhkPBdo7INVSpBmdUUHp4G20UJRpGpGkiLUYu/GyoenLJBnkVTopyM0nJHndysyrJsI3+MTze0O
+4KbxeIUHng==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RzrRJGQlcWVidr+Duf9jqxgE08I6W9rlI5HG9wqJSEmsYMEMnTHe/zk4kizoO2ix5gwRWSu/fqUD
+9KzTmWjO+g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y3iqfpucFG5dtl2G3YPwTitpQqBvq1DHBKD9kAaD87atEWTnSv4vJn9tqRzf8LmrB3E+Es78b410
+G13xlPT9pg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fPsKWKvtGRXuGyYaHGYcfi3upOkif3f1h1rxolyC4ZJFuhLcsvUFLZlNDoGjRl2vN/nYxnDhf5yW
+dC9g/fqqVg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-merge-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NwgRJT1Bi76MDKwDGRwek84l4BASCUBs+CF8HHj7lqXN9U35qUgAs606+K/4J5VXF2WlYHoCz66
+KpIgFcZ5YA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJi74OOGXiAjrwRBbhBonjrs0/OSjPkMKswNPXMGOIiGd5AlyJZ8jqGYrx9P4p0Wxl1OHVRseo+l
+E/W6ffFoUA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ANIdXXI4bD2bWhw2uoUgH3MFVqgpXUNTr1SveJKrgQENQq/yCewf2mHFTk3aNzfOpf2mTwnUDOUA
+SuKCOVZQJQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7gjBH6t+iWsuCcJBlUunZAM4sSx1zYBA2vBTwxsvIiNteg3qxzb4nTBSNjEv209WCjjU2N69zJ3N
+0jstl1kH1Q==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UOyKDdmEJ+gKgqjYzkRGKoRYduFZTJ0OiUg86aiqrWFu3qDlxFwbtp2P5/UgxvImDW+jUNd7QAiZ
+w643XpZb+w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fpush-to-checkout.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WG77aiBvc9ipRWEmYVOmJOJ1ODC8QxooO+2ZjEasAKnfSZXd/QqoUrGiK0ZyyA8sM87j/i4zIeOS
+/0zvJtv3Xg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fsendemail-validate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZ27wu9sNnqtv7kArljDd9iKybbArG3knJYtRNmTQYh19kFD3v2la66NBpfc0Vviko0yqndQjTlY
+dp8YpKUxVA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vjeAl0WJ0G7dum+gqhWj49/jkOKCehpq5cuD1qxH5575sbu1PwZzcvjccNsDUNN3DnhTf9PP5zQg
+D/gk7KTK2g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uo+HtVxoVeSoMkwkxh61TRQauSBRw5T8YFS4PDv8CcyhdHaYoVw4hry4KejaRmUoazNJvnwlzlbe
+V+kgJlM6mQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mCjG7N+RvxF0FuF/TunK7i4eN7b7ALn/BANazhejCJudCiXGuqEEbA4cYtPaiIOOj8p06oKXPWuX
+WQX95Y8wcg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Flogs%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNxA+04Z0qWSJ7lKuxymqe3dRO2e1A5Z6+Iy2DAp2tKmZiuKvCgwIyi8UOBaeMTjatENhktD+Uyq
+DqOV2vC2jA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F07%2F4fd241dec29388630e4e6a2dfe2b045e6fe053">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3IYFwWxO0B5AMc1es55eZs9sO2jRY33L4BSjTMNrN4TRvB13XpLHpL9lIbhAcq7BNcFXg27uJp0j
+mejZFFHzHw==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F0a%2Ffdc50d2e73c931535c95652617c9ef301bdf44">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+C7JFso0Jj3KPhQmRomGSP7RkRRPhJLIYu+pBErEf5J9u+qoVcWW9E/RX5jxRcJ8gSLoYZDB/B7C
+7IqtbOftUQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F11%2F990b589a9eda6d2a059af21e19381d1c59df1e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PLOYdBHhOyuDYLKZDd3Eg10uRdQc6bKDXvXGzOtmPxO9N2ef5iOl+mMVv829DD5Atkd8cCadQd22
+3tN2XPFkoA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F21%2F5a1ca40dc3cde9417b021ecb07a9e1837b9c57">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kS8neLdJBp5CtI9Zjlx+UAPSFu4AH9Ny3F2n/y4RNoutaQDwL9jCO4nzXB/pgV+dYYiUoY9oTKfg
+e6U9jb9pfQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F21%2Fd8aff6085dd8a595dd99f1474aa5cd51154e69">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g9yT/zS7QRl/HxHhrNyQuotIbBAYDBMxzw+ATwN2rkVw/ygukhxiOzDUfvCJ4fSCFr+r7dzjLM/1
+StB1tOMmng==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F25%2F1a1496624333aee68fb762f0e9b085d531843e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3mzXZnEIPuspE8mWd3QlXY+c74PhJXWbuSPdsjsUx+lq3YFMwQftUK9LU/Z9UNJ3BsX9vMa2ubB3
+7Ar7FN3wCA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F29%2F5fb537543bb7fdd1edc5919fd1bbf9ac7c7c70">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dVhiqB7VfmKrQ7SIsdxLBp3bWaaZnoMfg2Xc6sWzEDmj6gUhQNATwdWj4Cwg74u+mgapKLhch1xp
+BGZNeuHgaQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F3e%2F66043ecf96722f54c6ecffb00e17a2eee9b92b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zvuxt+K8n/RLLWfXQmlvOzOlDqLP8EdPWzXqnk8K9YlEqC1AcqQMQCGEZKXr5qxMxCbNBRj2x+FH
+pFB11MzknQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F43%2F38a108779a3f742224ec91d4129181dd6e5daf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uz1idaTrp7rtvenbDw2tR0FGd4QnGbXvCJvbQdbQ4hBNH+yHIcl5TA75DwQpklEpXMmVb2uODS6M
+n36/rGKAfg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F4a%2Fde3b7841618cd02cdf106d3a49f245f39c9935">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4ROZ6CIyiS/Y7giYzE8T9hVqT0azBE0cvP6UUG+EF+Jl2saLGeVIgIxh6wQcv0dvZh5WYUQj5pO
+1fE29Hz2ug==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F4d%2F818f6eda8c64c2c6f831b373d54073303b153e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zWBbGzLqsgAP8zr3KNxry2/lSt9QcJShVDaDL7jplJkI8+hxmbiBX2kQhbzFyNRn1zz5ipS4KpAD
+mTj9en62DA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F54%2F2de5d0571043f6c20fe7a5522d0d1da0fff9f2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Nka+nFQHfY5ITxr/nbsY/VgrbU83MbXrntc3KVs3HZw1kFq/FFcN7F851cN0aeH4Hdmh0gJjQpV/
+vFp/QNGimQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F57%2Fda26f16a7b962c5d15d5e8702072a1ae329b28">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F59%2F79a83d80c7048e7ff17a824eb79c0487069b2c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FfHLmUEztVOi2fcZVi4Ishg85kaGrdkbaC0M7lf20Z7wMoz/6RSiUJSbrbaRKx7fKfzEbmkuClHs
+xIA7YvEWWg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F63%2Fc03fce23967bc99461c9b30869c9ce37e5643f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bKi+OszcHRGB+DSvwWgjSFpYnY7r/NerlkwcixdSj5+LzSf2adOly2HGRboOewoI7fr/isBqtZhX
+0fxIoo20Qg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F6d%2F8a517fed700c842e9766bab715bc0c3803e51e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qSWT5NwcbA+dNI3qJHHhsK2pbic9wGjFLbas+FEKSYbvDLIfVVTAALRNvwzHE/XLEzhzZeX3KnXa
+EMY85bNPRg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F89%2F1c217073f8de0752ab4965f99a044c5f338965">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>h4/iwQn9AYENfMqfbS0DYAp+p5NGEXhuA6T7BVseZD1yoaqYYCuQD/dYyNJiDcvsGF3a/GNCGX5O
+Bz0vX34xYA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F92%2F5664f9284ca8309b8a2622a634c4e14a1cc3e6">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F98%2F49ec408f0324c470fa97ab28f824ad2f668871">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YeUSKQ3m5lOjFoy7+Tu3uTT4dexpFYXoaz9vlvlKlBOguSMiOR+yTdN6CWVhuKajRw6zne8zDJEr
+FEYSQ71n3w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2F9b%2Fdc3d3ef2a0468dd9b2bd4c28c3eab599e9a78e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Faa%2F65d32429e81ce92a4ba0d4532e7838f14aafcd">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fb4%2F919e71efaf20d34a281e490bd199950521f737">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6Qq7mKzvcp8IsgnwNvOWUnapSa62UafSRD8FALXQmmg2y0nLsJ/EkL4QKl9TX/CtURalJiOX4OPG
+CW3DOr203w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fbf%2Fe961c0b8a1e72e0e5c28b1694b1b0f3d8e616b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i/lzEiz8SaozSMT0ihXY6cvL4hnGomkDuGj3YSWVqwOzIeC/v6sva1uO9PcrL8kpuD87nX4rGMMd
+Lc3k8XhuTw==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fc8%2Feab257afc3a7d8d0ca4effbad28dbad1068e67">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fca%2Fe447feaa9b95151039d402996ba250979d0f21">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8pOOkH+VEKw/pQuuPIZ9EG9izncH0QvqBmQdLF0YXAXzpbpBHzQMYC3AtO+pDL5p+OHbieDWecit
+lf1dmE3bEg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fce%2F829314db2b9edc6f541395fe3151ef886123bc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MswbtKvECHsWfQptIQztoSUivSX8bbD64BNTyWfx0Ex0vNwH2Jr7lop6py7XJ+zzi80hFMOerSiM
+S6dJWiNXrQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fd5%2F0a9fa431634b7a5a2f2dcaef20c744c24d0255">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>tD5DdSRPX6xbrjnoxztF/or9It1eerQdLQDVybVhTgpiAEU07ptcLCjrFIZylNyo+xgNZl5dcoOY
+FIb6wcznmQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fdb%2Ffc4da6f026fd52a8cfb6987809dca95dcb777a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UHiXU6QB8tVM3f41Yuryr2X0OYwGJoqVgz3vMft/U7RU2hazw47kcc2daso+vYOQCuxAMK7l490x
+DbSY6Z2xwA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fec%2Fea6d24a00fa117da037d345475b82af7d62272">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GTvZnrj2hxOSSli5yOp80Jw8Eq9poUo9lrTaL4nrpAGCYwYYnPoK3DA5LmHt2a/sexMInLWIHgO9
+TEmcFswv7w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Fee%2Fdcb0d0473936777f9e5118dd264c6d8569b796">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pfsMoGONo/0aeKklKEa57pdxK5tAakc2oVJzQ8YDuOl1jut0iOjoJMs2qyOOkdYxsaWQ0MA1p4ig
+7AruCNy15g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Fobjects%2Ff0%2Fc0fa56970871d4a16f222dc7245deeba2b7c9f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fCs/5X1lyy9DuZw9p2X2ntsKD32faaTqvjVTbXsFB2Y2XZKQkvmOnmnjP3ddfxkcCz7MIb76F2pC
+/i9xKuRgNA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>91EXYsDlxHPwbApdoTn8f7aB5Qtx4/AbVIpu1bDdsmetxohaOYxTsn+1MarV9hu9gCKOfw3J1twh
+Uo3deVLaHA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.git%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2F.gitignore">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pgvrVBUlbLuLydPtM5ZqAYP1B8YgmvrA5m5Jy8zuTIIHXMJeAkk+YWVlQILlNtpm6dt6EFAWmTsW
+8U2Oqbz2/g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zYqlHqcYF3W4y/J1BbP3sIFZbc49x0K73jzrc2wd8eVOxakBqqmpoG5etVgKif9Z902dNehMOVcZ
+lRzuI+Xt9A==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qoZVBhIVJYkM6x/YmHgSDyOMUaEO/ZPBfRwR5kOpH81DPM1dJWTq32QVS8NWRprQzDVEoOG3zEZC
+5o/cxyrulw==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i8nxfwYow86TXdrD0VzUgqdWeX8ZKHpKW5bg4883z5DEIZSbLoLWVxSydMi0VaxSLYgSO+g+4u/Y
+XqxfupTKgA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2FORIG_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>22zqL8mShraDFIf7YzrZjbJ7+h/yM4hwT62P/ynjWgmw4ox3Rtb2gRpLeSjxLt00W3xgX4D4Kib7
+3+MeXwu4Zg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+FS91sSTD4cXRLwBCdynZ7sTiwb9w12BkQKZgDQAzZ+sXgzHnWrl2phSW55wsgiAghJ0o/9FwlG
+OXuTRhG0cQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>U2zOgE2E4lgTmT790kBTe1LQDOnNzs8ZgvhQltVqUhKQEEyCXACzcLJ1IgGVKpYWo/TijF0npbTk
+hCEBov+b7g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1rt/p0f0YlrfGHf1RlZcvoEsp91BaPfpBo5nMlVdhzfrpUlUbPWUZknj843oLRc6r5wWCkyflEVl
+Uli0xflV6w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UWhkPBdo7INVSpBmdUUHp4G20UJRpGpGkiLUYu/GyoenLJBnkVTopyM0nJHndysyrJsI3+MTze0O
+4KbxeIUHng==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RzrRJGQlcWVidr+Duf9jqxgE08I6W9rlI5HG9wqJSEmsYMEMnTHe/zk4kizoO2ix5gwRWSu/fqUD
+9KzTmWjO+g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y3iqfpucFG5dtl2G3YPwTitpQqBvq1DHBKD9kAaD87atEWTnSv4vJn9tqRzf8LmrB3E+Es78b410
+G13xlPT9pg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fPsKWKvtGRXuGyYaHGYcfi3upOkif3f1h1rxolyC4ZJFuhLcsvUFLZlNDoGjRl2vN/nYxnDhf5yW
+dC9g/fqqVg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-merge-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NwgRJT1Bi76MDKwDGRwek84l4BASCUBs+CF8HHj7lqXN9U35qUgAs606+K/4J5VXF2WlYHoCz66
+KpIgFcZ5YA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJi74OOGXiAjrwRBbhBonjrs0/OSjPkMKswNPXMGOIiGd5AlyJZ8jqGYrx9P4p0Wxl1OHVRseo+l
+E/W6ffFoUA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ANIdXXI4bD2bWhw2uoUgH3MFVqgpXUNTr1SveJKrgQENQq/yCewf2mHFTk3aNzfOpf2mTwnUDOUA
+SuKCOVZQJQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7gjBH6t+iWsuCcJBlUunZAM4sSx1zYBA2vBTwxsvIiNteg3qxzb4nTBSNjEv209WCjjU2N69zJ3N
+0jstl1kH1Q==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UOyKDdmEJ+gKgqjYzkRGKoRYduFZTJ0OiUg86aiqrWFu3qDlxFwbtp2P5/UgxvImDW+jUNd7QAiZ
+w643XpZb+w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpush-to-checkout.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WG77aiBvc9ipRWEmYVOmJOJ1ODC8QxooO+2ZjEasAKnfSZXd/QqoUrGiK0ZyyA8sM87j/i4zIeOS
+/0zvJtv3Xg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fsendemail-validate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZ27wu9sNnqtv7kArljDd9iKybbArG3knJYtRNmTQYh19kFD3v2la66NBpfc0Vviko0yqndQjTlY
+dp8YpKUxVA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vjeAl0WJ0G7dum+gqhWj49/jkOKCehpq5cuD1qxH5575sbu1PwZzcvjccNsDUNN3DnhTf9PP5zQg
+D/gk7KTK2g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RIWgkpRPePmHyQdb9D0NqI0uraUf+RMaJO5JiAA9ORft5q7L6WrMJOiIOKUkTQrdMY/B3cgDiC5A
+rfuIzYq+Rg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mCjG7N+RvxF0FuF/TunK7i4eN7b7ALn/BANazhejCJudCiXGuqEEbA4cYtPaiIOOj8p06oKXPWuX
+WQX95Y8wcg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Flogs%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNxA+04Z0qWSJ7lKuxymqe3dRO2e1A5Z6+Iy2DAp2tKmZiuKvCgwIyi8UOBaeMTjatENhktD+Uyq
+DqOV2vC2jA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F07%2F4fd241dec29388630e4e6a2dfe2b045e6fe053">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3IYFwWxO0B5AMc1es55eZs9sO2jRY33L4BSjTMNrN4TRvB13XpLHpL9lIbhAcq7BNcFXg27uJp0j
+mejZFFHzHw==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F0a%2Ffdc50d2e73c931535c95652617c9ef301bdf44">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+C7JFso0Jj3KPhQmRomGSP7RkRRPhJLIYu+pBErEf5J9u+qoVcWW9E/RX5jxRcJ8gSLoYZDB/B7C
+7IqtbOftUQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F11%2F990b589a9eda6d2a059af21e19381d1c59df1e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PLOYdBHhOyuDYLKZDd3Eg10uRdQc6bKDXvXGzOtmPxO9N2ef5iOl+mMVv829DD5Atkd8cCadQd22
+3tN2XPFkoA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F21%2F5a1ca40dc3cde9417b021ecb07a9e1837b9c57">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kS8neLdJBp5CtI9Zjlx+UAPSFu4AH9Ny3F2n/y4RNoutaQDwL9jCO4nzXB/pgV+dYYiUoY9oTKfg
+e6U9jb9pfQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F21%2Fd8aff6085dd8a595dd99f1474aa5cd51154e69">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g9yT/zS7QRl/HxHhrNyQuotIbBAYDBMxzw+ATwN2rkVw/ygukhxiOzDUfvCJ4fSCFr+r7dzjLM/1
+StB1tOMmng==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F25%2F1a1496624333aee68fb762f0e9b085d531843e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3mzXZnEIPuspE8mWd3QlXY+c74PhJXWbuSPdsjsUx+lq3YFMwQftUK9LU/Z9UNJ3BsX9vMa2ubB3
+7Ar7FN3wCA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F29%2F5fb537543bb7fdd1edc5919fd1bbf9ac7c7c70">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dVhiqB7VfmKrQ7SIsdxLBp3bWaaZnoMfg2Xc6sWzEDmj6gUhQNATwdWj4Cwg74u+mgapKLhch1xp
+BGZNeuHgaQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F43%2F38a108779a3f742224ec91d4129181dd6e5daf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uz1idaTrp7rtvenbDw2tR0FGd4QnGbXvCJvbQdbQ4hBNH+yHIcl5TA75DwQpklEpXMmVb2uODS6M
+n36/rGKAfg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F4a%2Fde3b7841618cd02cdf106d3a49f245f39c9935">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4ROZ6CIyiS/Y7giYzE8T9hVqT0azBE0cvP6UUG+EF+Jl2saLGeVIgIxh6wQcv0dvZh5WYUQj5pO
+1fE29Hz2ug==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F4d%2F818f6eda8c64c2c6f831b373d54073303b153e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zWBbGzLqsgAP8zr3KNxry2/lSt9QcJShVDaDL7jplJkI8+hxmbiBX2kQhbzFyNRn1zz5ipS4KpAD
+mTj9en62DA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F54%2F2de5d0571043f6c20fe7a5522d0d1da0fff9f2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Nka+nFQHfY5ITxr/nbsY/VgrbU83MbXrntc3KVs3HZw1kFq/FFcN7F851cN0aeH4Hdmh0gJjQpV/
+vFp/QNGimQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F59%2F79a83d80c7048e7ff17a824eb79c0487069b2c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FfHLmUEztVOi2fcZVi4Ishg85kaGrdkbaC0M7lf20Z7wMoz/6RSiUJSbrbaRKx7fKfzEbmkuClHs
+xIA7YvEWWg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F63%2Fc03fce23967bc99461c9b30869c9ce37e5643f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bKi+OszcHRGB+DSvwWgjSFpYnY7r/NerlkwcixdSj5+LzSf2adOly2HGRboOewoI7fr/isBqtZhX
+0fxIoo20Qg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F6d%2F8a517fed700c842e9766bab715bc0c3803e51e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qSWT5NwcbA+dNI3qJHHhsK2pbic9wGjFLbas+FEKSYbvDLIfVVTAALRNvwzHE/XLEzhzZeX3KnXa
+EMY85bNPRg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F89%2F1c217073f8de0752ab4965f99a044c5f338965">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>h4/iwQn9AYENfMqfbS0DYAp+p5NGEXhuA6T7BVseZD1yoaqYYCuQD/dYyNJiDcvsGF3a/GNCGX5O
+Bz0vX34xYA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F98%2F49ec408f0324c470fa97ab28f824ad2f668871">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YeUSKQ3m5lOjFoy7+Tu3uTT4dexpFYXoaz9vlvlKlBOguSMiOR+yTdN6CWVhuKajRw6zne8zDJEr
+FEYSQ71n3w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fb4%2F919e71efaf20d34a281e490bd199950521f737">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6Qq7mKzvcp8IsgnwNvOWUnapSa62UafSRD8FALXQmmg2y0nLsJ/EkL4QKl9TX/CtURalJiOX4OPG
+CW3DOr203w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fbf%2Fe961c0b8a1e72e0e5c28b1694b1b0f3d8e616b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i/lzEiz8SaozSMT0ihXY6cvL4hnGomkDuGj3YSWVqwOzIeC/v6sva1uO9PcrL8kpuD87nX4rGMMd
+Lc3k8XhuTw==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fca%2Fe447feaa9b95151039d402996ba250979d0f21">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8pOOkH+VEKw/pQuuPIZ9EG9izncH0QvqBmQdLF0YXAXzpbpBHzQMYC3AtO+pDL5p+OHbieDWecit
+lf1dmE3bEg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fce%2F829314db2b9edc6f541395fe3151ef886123bc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MswbtKvECHsWfQptIQztoSUivSX8bbD64BNTyWfx0Ex0vNwH2Jr7lop6py7XJ+zzi80hFMOerSiM
+S6dJWiNXrQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fd5%2F0a9fa431634b7a5a2f2dcaef20c744c24d0255">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>tD5DdSRPX6xbrjnoxztF/or9It1eerQdLQDVybVhTgpiAEU07ptcLCjrFIZylNyo+xgNZl5dcoOY
+FIb6wcznmQ==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fdb%2Ffc4da6f026fd52a8cfb6987809dca95dcb777a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UHiXU6QB8tVM3f41Yuryr2X0OYwGJoqVgz3vMft/U7RU2hazw47kcc2daso+vYOQCuxAMK7l490x
+DbSY6Z2xwA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fec%2Fea6d24a00fa117da037d345475b82af7d62272">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GTvZnrj2hxOSSli5yOp80Jw8Eq9poUo9lrTaL4nrpAGCYwYYnPoK3DA5LmHt2a/sexMInLWIHgO9
+TEmcFswv7w==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fee%2Fdcb0d0473936777f9e5118dd264c6d8569b796">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pfsMoGONo/0aeKklKEa57pdxK5tAakc2oVJzQ8YDuOl1jut0iOjoJMs2qyOOkdYxsaWQ0MA1p4ig
+7AruCNy15g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Ff0%2Fc0fa56970871d4a16f222dc7245deeba2b7c9f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fCs/5X1lyy9DuZw9p2X2ntsKD32faaTqvjVTbXsFB2Y2XZKQkvmOnmnjP3ddfxkcCz7MIb76F2pC
+/i9xKuRgNA==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2F.git%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Fauthor-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>AZhWFrjvxwqT1ilx8752nPwowye38ftQrLn1Ai8RABd4/VJ+AkaT7/2yO5jOaqQqJa2Ks11FAkOL
+wnIru/K33A==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Fconfig.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0gYezuWP4q/pS8Q4tj3+JWB+n9+pb5sZY+Q3ntMR0Tbht/zjjIvizU4F0nPnbmB6TIHMCrbL4gin
+TIxdjBWBUg==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Fcss%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>svpmY406DQuRPI4ICV8saKIDkIBGobf16ZqfNeaHGU8/6PhZUbBbMZjECfkwsWg9GgHOQRBnm2TP
+NwslbhT1Og==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Findex.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>W/eAXk0HLNlCjkEBEh7cznqIU+YOKxk/KLWa6P9wkIxGGFhcs6fSGsaKndFzohYEfgHg+kubtmW6
+pQI7aAwR4g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Fjs%2Fiframe_api.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>J+1TcMBA+dQJKsM47Ul71qg/PWIHjf+U7xIajzUfYXbw0WkAEKYURYvXmhavlHBR3eNWA/QhC2vF
+SkU74K7Z2g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2FDebug%2Fprojects%2Flooptube%2Ftizen_web_project.yaml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VU5exRsdg6ijPC8q49VekdV8Ddmcj0hSr4KFkHrt2XPnwMkSvW8bUOCA50V+Yh9n20rd4rdJeTWJ
+0Z85MflVaQ==</DigestValue>
+</Reference>
 <Reference URI=".buildResult%2Fauthor-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>AZhWFrjvxwqT1ilx8752nPwowye38ftQrLn1Ai8RABd4/VJ+AkaT7/2yO5jOaqQqJa2Ks11FAkOL
@@ -9,8 +594,8 @@ wnIru/K33A==</DigestValue>
 </Reference>
 <Reference URI=".buildResult%2Fconfig.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>ClNPfDl9OCLLAL92rTAe0Oi+xclIhYwW/IPxtuBmGaePCgTFbkZ4Pa1n7/jIaoG4L1sJ/Fn9TYcB
-iEKHkMFK7w==</DigestValue>
+<DigestValue>0gYezuWP4q/pS8Q4tj3+JWB+n9+pb5sZY+Q3ntMR0Tbht/zjjIvizU4F0nPnbmB6TIHMCrbL4gin
+TIxdjBWBUg==</DigestValue>
 </Reference>
 <Reference URI=".buildResult%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -19,18 +604,623 @@ NwslbhT1Og==</DigestValue>
 </Reference>
 <Reference URI=".buildResult%2Findex.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Ge1BFSwT2XCU9EZhr+xnaW1M11IoMKgDEQlfTU/C8/MPXG3yEhvd8hcaTdaeFnE5r00KUVce7mTy
-YAcgfZS8tA==</DigestValue>
+<DigestValue>W/eAXk0HLNlCjkEBEh7cznqIU+YOKxk/KLWa6P9wkIxGGFhcs6fSGsaKndFzohYEfgHg+kubtmW6
+pQI7aAwR4g==</DigestValue>
 </Reference>
-<Reference URI="author-signature.xml">
+<Reference URI=".buildResult%2Fjs%2Fiframe_api.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>J+1TcMBA+dQJKsM47Ul71qg/PWIHjf+U7xIajzUfYXbw0WkAEKYURYvXmhavlHBR3eNWA/QhC2vF
+SkU74K7Z2g==</DigestValue>
+</Reference>
+<Reference URI=".buildResult%2Ftizen_web_project.yaml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VU5exRsdg6ijPC8q49VekdV8Ddmcj0hSr4KFkHrt2XPnwMkSvW8bUOCA50V+Yh9n20rd4rdJeTWJ
+0Z85MflVaQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LGUyyelGtzCdedTH0BqLgk9x3iBFQqm+4+dQXVVuO6+qYjqOpSHje8BXFo9j6HAHsdi6HGFW4EGs
+eaqbVg9Ulg==</DigestValue>
+</Reference>
+<Reference URI=".git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i8nxfwYow86TXdrD0VzUgqdWeX8ZKHpKW5bg4883z5DEIZSbLoLWVxSydMi0VaxSLYgSO+g+4u/Y
+XqxfupTKgA==</DigestValue>
+</Reference>
+<Reference URI=".git%2FORIG_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>22zqL8mShraDFIf7YzrZjbJ7+h/yM4hwT62P/ynjWgmw4ox3Rtb2gRpLeSjxLt00W3xgX4D4Kib7
+3+MeXwu4Zg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+FS91sSTD4cXRLwBCdynZ7sTiwb9w12BkQKZgDQAzZ+sXgzHnWrl2phSW55wsgiAghJ0o/9FwlG
+OXuTRhG0cQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>U2zOgE2E4lgTmT790kBTe1LQDOnNzs8ZgvhQltVqUhKQEEyCXACzcLJ1IgGVKpYWo/TijF0npbTk
+hCEBov+b7g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1rt/p0f0YlrfGHf1RlZcvoEsp91BaPfpBo5nMlVdhzfrpUlUbPWUZknj843oLRc6r5wWCkyflEVl
+Uli0xflV6w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UWhkPBdo7INVSpBmdUUHp4G20UJRpGpGkiLUYu/GyoenLJBnkVTopyM0nJHndysyrJsI3+MTze0O
+4KbxeIUHng==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RzrRJGQlcWVidr+Duf9jqxgE08I6W9rlI5HG9wqJSEmsYMEMnTHe/zk4kizoO2ix5gwRWSu/fqUD
+9KzTmWjO+g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y3iqfpucFG5dtl2G3YPwTitpQqBvq1DHBKD9kAaD87atEWTnSv4vJn9tqRzf8LmrB3E+Es78b410
+G13xlPT9pg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fPsKWKvtGRXuGyYaHGYcfi3upOkif3f1h1rxolyC4ZJFuhLcsvUFLZlNDoGjRl2vN/nYxnDhf5yW
+dC9g/fqqVg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-merge-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NwgRJT1Bi76MDKwDGRwek84l4BASCUBs+CF8HHj7lqXN9U35qUgAs606+K/4J5VXF2WlYHoCz66
+KpIgFcZ5YA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJi74OOGXiAjrwRBbhBonjrs0/OSjPkMKswNPXMGOIiGd5AlyJZ8jqGYrx9P4p0Wxl1OHVRseo+l
+E/W6ffFoUA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ANIdXXI4bD2bWhw2uoUgH3MFVqgpXUNTr1SveJKrgQENQq/yCewf2mHFTk3aNzfOpf2mTwnUDOUA
+SuKCOVZQJQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7gjBH6t+iWsuCcJBlUunZAM4sSx1zYBA2vBTwxsvIiNteg3qxzb4nTBSNjEv209WCjjU2N69zJ3N
+0jstl1kH1Q==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UOyKDdmEJ+gKgqjYzkRGKoRYduFZTJ0OiUg86aiqrWFu3qDlxFwbtp2P5/UgxvImDW+jUNd7QAiZ
+w643XpZb+w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpush-to-checkout.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WG77aiBvc9ipRWEmYVOmJOJ1ODC8QxooO+2ZjEasAKnfSZXd/QqoUrGiK0ZyyA8sM87j/i4zIeOS
+/0zvJtv3Xg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fsendemail-validate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZ27wu9sNnqtv7kArljDd9iKybbArG3knJYtRNmTQYh19kFD3v2la66NBpfc0Vviko0yqndQjTlY
+dp8YpKUxVA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vjeAl0WJ0G7dum+gqhWj49/jkOKCehpq5cuD1qxH5575sbu1PwZzcvjccNsDUNN3DnhTf9PP5zQg
+D/gk7KTK2g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uo+HtVxoVeSoMkwkxh61TRQauSBRw5T8YFS4PDv8CcyhdHaYoVw4hry4KejaRmUoazNJvnwlzlbe
+V+kgJlM6mQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mCjG7N+RvxF0FuF/TunK7i4eN7b7ALn/BANazhejCJudCiXGuqEEbA4cYtPaiIOOj8p06oKXPWuX
+WQX95Y8wcg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNxA+04Z0qWSJ7lKuxymqe3dRO2e1A5Z6+Iy2DAp2tKmZiuKvCgwIyi8UOBaeMTjatENhktD+Uyq
+DqOV2vC2jA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F07%2F4fd241dec29388630e4e6a2dfe2b045e6fe053">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3IYFwWxO0B5AMc1es55eZs9sO2jRY33L4BSjTMNrN4TRvB13XpLHpL9lIbhAcq7BNcFXg27uJp0j
+mejZFFHzHw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F0a%2Ffdc50d2e73c931535c95652617c9ef301bdf44">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+C7JFso0Jj3KPhQmRomGSP7RkRRPhJLIYu+pBErEf5J9u+qoVcWW9E/RX5jxRcJ8gSLoYZDB/B7C
+7IqtbOftUQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F11%2F990b589a9eda6d2a059af21e19381d1c59df1e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PLOYdBHhOyuDYLKZDd3Eg10uRdQc6bKDXvXGzOtmPxO9N2ef5iOl+mMVv829DD5Atkd8cCadQd22
+3tN2XPFkoA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F21%2F5a1ca40dc3cde9417b021ecb07a9e1837b9c57">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kS8neLdJBp5CtI9Zjlx+UAPSFu4AH9Ny3F2n/y4RNoutaQDwL9jCO4nzXB/pgV+dYYiUoY9oTKfg
+e6U9jb9pfQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F21%2Fd8aff6085dd8a595dd99f1474aa5cd51154e69">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g9yT/zS7QRl/HxHhrNyQuotIbBAYDBMxzw+ATwN2rkVw/ygukhxiOzDUfvCJ4fSCFr+r7dzjLM/1
+StB1tOMmng==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F25%2F1a1496624333aee68fb762f0e9b085d531843e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3mzXZnEIPuspE8mWd3QlXY+c74PhJXWbuSPdsjsUx+lq3YFMwQftUK9LU/Z9UNJ3BsX9vMa2ubB3
+7Ar7FN3wCA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F29%2F5fb537543bb7fdd1edc5919fd1bbf9ac7c7c70">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dVhiqB7VfmKrQ7SIsdxLBp3bWaaZnoMfg2Xc6sWzEDmj6gUhQNATwdWj4Cwg74u+mgapKLhch1xp
+BGZNeuHgaQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F3e%2F66043ecf96722f54c6ecffb00e17a2eee9b92b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zvuxt+K8n/RLLWfXQmlvOzOlDqLP8EdPWzXqnk8K9YlEqC1AcqQMQCGEZKXr5qxMxCbNBRj2x+FH
+pFB11MzknQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F43%2F38a108779a3f742224ec91d4129181dd6e5daf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uz1idaTrp7rtvenbDw2tR0FGd4QnGbXvCJvbQdbQ4hBNH+yHIcl5TA75DwQpklEpXMmVb2uODS6M
+n36/rGKAfg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F4a%2Fde3b7841618cd02cdf106d3a49f245f39c9935">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4ROZ6CIyiS/Y7giYzE8T9hVqT0azBE0cvP6UUG+EF+Jl2saLGeVIgIxh6wQcv0dvZh5WYUQj5pO
+1fE29Hz2ug==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F4d%2F818f6eda8c64c2c6f831b373d54073303b153e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zWBbGzLqsgAP8zr3KNxry2/lSt9QcJShVDaDL7jplJkI8+hxmbiBX2kQhbzFyNRn1zz5ipS4KpAD
+mTj9en62DA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F54%2F2de5d0571043f6c20fe7a5522d0d1da0fff9f2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Nka+nFQHfY5ITxr/nbsY/VgrbU83MbXrntc3KVs3HZw1kFq/FFcN7F851cN0aeH4Hdmh0gJjQpV/
+vFp/QNGimQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F57%2Fda26f16a7b962c5d15d5e8702072a1ae329b28">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F59%2F79a83d80c7048e7ff17a824eb79c0487069b2c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FfHLmUEztVOi2fcZVi4Ishg85kaGrdkbaC0M7lf20Z7wMoz/6RSiUJSbrbaRKx7fKfzEbmkuClHs
+xIA7YvEWWg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F63%2Fc03fce23967bc99461c9b30869c9ce37e5643f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bKi+OszcHRGB+DSvwWgjSFpYnY7r/NerlkwcixdSj5+LzSf2adOly2HGRboOewoI7fr/isBqtZhX
+0fxIoo20Qg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F6d%2F8a517fed700c842e9766bab715bc0c3803e51e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qSWT5NwcbA+dNI3qJHHhsK2pbic9wGjFLbas+FEKSYbvDLIfVVTAALRNvwzHE/XLEzhzZeX3KnXa
+EMY85bNPRg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F89%2F1c217073f8de0752ab4965f99a044c5f338965">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>h4/iwQn9AYENfMqfbS0DYAp+p5NGEXhuA6T7BVseZD1yoaqYYCuQD/dYyNJiDcvsGF3a/GNCGX5O
+Bz0vX34xYA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F92%2F5664f9284ca8309b8a2622a634c4e14a1cc3e6">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F98%2F49ec408f0324c470fa97ab28f824ad2f668871">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YeUSKQ3m5lOjFoy7+Tu3uTT4dexpFYXoaz9vlvlKlBOguSMiOR+yTdN6CWVhuKajRw6zne8zDJEr
+FEYSQ71n3w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F9b%2Fdc3d3ef2a0468dd9b2bd4c28c3eab599e9a78e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Faa%2F65d32429e81ce92a4ba0d4532e7838f14aafcd">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fb4%2F919e71efaf20d34a281e490bd199950521f737">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6Qq7mKzvcp8IsgnwNvOWUnapSa62UafSRD8FALXQmmg2y0nLsJ/EkL4QKl9TX/CtURalJiOX4OPG
+CW3DOr203w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fbf%2Fe961c0b8a1e72e0e5c28b1694b1b0f3d8e616b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i/lzEiz8SaozSMT0ihXY6cvL4hnGomkDuGj3YSWVqwOzIeC/v6sva1uO9PcrL8kpuD87nX4rGMMd
+Lc3k8XhuTw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fc8%2Feab257afc3a7d8d0ca4effbad28dbad1068e67">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGl
+ODJ6+SfaPg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fca%2Fe447feaa9b95151039d402996ba250979d0f21">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8pOOkH+VEKw/pQuuPIZ9EG9izncH0QvqBmQdLF0YXAXzpbpBHzQMYC3AtO+pDL5p+OHbieDWecit
+lf1dmE3bEg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fce%2F829314db2b9edc6f541395fe3151ef886123bc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MswbtKvECHsWfQptIQztoSUivSX8bbD64BNTyWfx0Ex0vNwH2Jr7lop6py7XJ+zzi80hFMOerSiM
+S6dJWiNXrQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fd5%2F0a9fa431634b7a5a2f2dcaef20c744c24d0255">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>tD5DdSRPX6xbrjnoxztF/or9It1eerQdLQDVybVhTgpiAEU07ptcLCjrFIZylNyo+xgNZl5dcoOY
+FIb6wcznmQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fdb%2Ffc4da6f026fd52a8cfb6987809dca95dcb777a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UHiXU6QB8tVM3f41Yuryr2X0OYwGJoqVgz3vMft/U7RU2hazw47kcc2daso+vYOQCuxAMK7l490x
+DbSY6Z2xwA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fec%2Fea6d24a00fa117da037d345475b82af7d62272">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GTvZnrj2hxOSSli5yOp80Jw8Eq9poUo9lrTaL4nrpAGCYwYYnPoK3DA5LmHt2a/sexMInLWIHgO9
+TEmcFswv7w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fee%2Fdcb0d0473936777f9e5118dd264c6d8569b796">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pfsMoGONo/0aeKklKEa57pdxK5tAakc2oVJzQ8YDuOl1jut0iOjoJMs2qyOOkdYxsaWQ0MA1p4ig
+7AruCNy15g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Ff0%2Fc0fa56970871d4a16f222dc7245deeba2b7c9f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fCs/5X1lyy9DuZw9p2X2ntsKD32faaTqvjVTbXsFB2Y2XZKQkvmOnmnjP3ddfxkcCz7MIb76F2pC
+/i9xKuRgNA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>91EXYsDlxHPwbApdoTn8f7aB5Qtx4/AbVIpu1bDdsmetxohaOYxTsn+1MarV9hu9gCKOfw3J1twh
+Uo3deVLaHA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI=".gitignore">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pgvrVBUlbLuLydPtM5ZqAYP1B8YgmvrA5m5Jy8zuTIIHXMJeAkk+YWVlQILlNtpm6dt6EFAWmTsW
+8U2Oqbz2/g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Flooptube.wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iV/FsJNA+68//p3fZ07lIfupvyWas2AqGdDAxf8j4hK03ihFvn/ISMKd1trbBBddS+CaoNJhyimx
+0w0sJcJ+kA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zYqlHqcYF3W4y/J1BbP3sIFZbc49x0K73jzrc2wd8eVOxakBqqmpoG5etVgKif9Z902dNehMOVcZ
+lRzuI+Xt9A==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qoZVBhIVJYkM6x/YmHgSDyOMUaEO/ZPBfRwR5kOpH81DPM1dJWTq32QVS8NWRprQzDVEoOG3zEZC
+5o/cxyrulw==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i8nxfwYow86TXdrD0VzUgqdWeX8ZKHpKW5bg4883z5DEIZSbLoLWVxSydMi0VaxSLYgSO+g+4u/Y
+XqxfupTKgA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2FORIG_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>22zqL8mShraDFIf7YzrZjbJ7+h/yM4hwT62P/ynjWgmw4ox3Rtb2gRpLeSjxLt00W3xgX4D4Kib7
+3+MeXwu4Zg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+FS91sSTD4cXRLwBCdynZ7sTiwb9w12BkQKZgDQAzZ+sXgzHnWrl2phSW55wsgiAghJ0o/9FwlG
+OXuTRhG0cQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>U2zOgE2E4lgTmT790kBTe1LQDOnNzs8ZgvhQltVqUhKQEEyCXACzcLJ1IgGVKpYWo/TijF0npbTk
+hCEBov+b7g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1rt/p0f0YlrfGHf1RlZcvoEsp91BaPfpBo5nMlVdhzfrpUlUbPWUZknj843oLRc6r5wWCkyflEVl
+Uli0xflV6w==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UWhkPBdo7INVSpBmdUUHp4G20UJRpGpGkiLUYu/GyoenLJBnkVTopyM0nJHndysyrJsI3+MTze0O
+4KbxeIUHng==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RzrRJGQlcWVidr+Duf9jqxgE08I6W9rlI5HG9wqJSEmsYMEMnTHe/zk4kizoO2ix5gwRWSu/fqUD
+9KzTmWjO+g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y3iqfpucFG5dtl2G3YPwTitpQqBvq1DHBKD9kAaD87atEWTnSv4vJn9tqRzf8LmrB3E+Es78b410
+G13xlPT9pg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fPsKWKvtGRXuGyYaHGYcfi3upOkif3f1h1rxolyC4ZJFuhLcsvUFLZlNDoGjRl2vN/nYxnDhf5yW
+dC9g/fqqVg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-merge-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NwgRJT1Bi76MDKwDGRwek84l4BASCUBs+CF8HHj7lqXN9U35qUgAs606+K/4J5VXF2WlYHoCz66
+KpIgFcZ5YA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zJi74OOGXiAjrwRBbhBonjrs0/OSjPkMKswNPXMGOIiGd5AlyJZ8jqGYrx9P4p0Wxl1OHVRseo+l
+E/W6ffFoUA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ANIdXXI4bD2bWhw2uoUgH3MFVqgpXUNTr1SveJKrgQENQq/yCewf2mHFTk3aNzfOpf2mTwnUDOUA
+SuKCOVZQJQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7gjBH6t+iWsuCcJBlUunZAM4sSx1zYBA2vBTwxsvIiNteg3qxzb4nTBSNjEv209WCjjU2N69zJ3N
+0jstl1kH1Q==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UOyKDdmEJ+gKgqjYzkRGKoRYduFZTJ0OiUg86aiqrWFu3qDlxFwbtp2P5/UgxvImDW+jUNd7QAiZ
+w643XpZb+w==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fpush-to-checkout.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WG77aiBvc9ipRWEmYVOmJOJ1ODC8QxooO+2ZjEasAKnfSZXd/QqoUrGiK0ZyyA8sM87j/i4zIeOS
+/0zvJtv3Xg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fsendemail-validate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZ27wu9sNnqtv7kArljDd9iKybbArG3knJYtRNmTQYh19kFD3v2la66NBpfc0Vviko0yqndQjTlY
+dp8YpKUxVA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vjeAl0WJ0G7dum+gqhWj49/jkOKCehpq5cuD1qxH5575sbu1PwZzcvjccNsDUNN3DnhTf9PP5zQg
+D/gk7KTK2g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RIWgkpRPePmHyQdb9D0NqI0uraUf+RMaJO5JiAA9ORft5q7L6WrMJOiIOKUkTQrdMY/B3cgDiC5A
+rfuIzYq+Rg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mCjG7N+RvxF0FuF/TunK7i4eN7b7ALn/BANazhejCJudCiXGuqEEbA4cYtPaiIOOj8p06oKXPWuX
+WQX95Y8wcg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Flogs%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZxVojhIMB99UUlRMV3bskkDDJK7ixHEZtUDygQLcbNY+AMlOKIA7YdXBgZsMECZ+f7tuYg9vfsOe
+TkW4TXbwww==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNxA+04Z0qWSJ7lKuxymqe3dRO2e1A5Z6+Iy2DAp2tKmZiuKvCgwIyi8UOBaeMTjatENhktD+Uyq
+DqOV2vC2jA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F07%2F4fd241dec29388630e4e6a2dfe2b045e6fe053">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3IYFwWxO0B5AMc1es55eZs9sO2jRY33L4BSjTMNrN4TRvB13XpLHpL9lIbhAcq7BNcFXg27uJp0j
+mejZFFHzHw==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F0a%2Ffdc50d2e73c931535c95652617c9ef301bdf44">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+C7JFso0Jj3KPhQmRomGSP7RkRRPhJLIYu+pBErEf5J9u+qoVcWW9E/RX5jxRcJ8gSLoYZDB/B7C
+7IqtbOftUQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F11%2F990b589a9eda6d2a059af21e19381d1c59df1e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PLOYdBHhOyuDYLKZDd3Eg10uRdQc6bKDXvXGzOtmPxO9N2ef5iOl+mMVv829DD5Atkd8cCadQd22
+3tN2XPFkoA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F21%2F5a1ca40dc3cde9417b021ecb07a9e1837b9c57">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kS8neLdJBp5CtI9Zjlx+UAPSFu4AH9Ny3F2n/y4RNoutaQDwL9jCO4nzXB/pgV+dYYiUoY9oTKfg
+e6U9jb9pfQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F21%2Fd8aff6085dd8a595dd99f1474aa5cd51154e69">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g9yT/zS7QRl/HxHhrNyQuotIbBAYDBMxzw+ATwN2rkVw/ygukhxiOzDUfvCJ4fSCFr+r7dzjLM/1
+StB1tOMmng==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F25%2F1a1496624333aee68fb762f0e9b085d531843e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3mzXZnEIPuspE8mWd3QlXY+c74PhJXWbuSPdsjsUx+lq3YFMwQftUK9LU/Z9UNJ3BsX9vMa2ubB3
+7Ar7FN3wCA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F29%2F5fb537543bb7fdd1edc5919fd1bbf9ac7c7c70">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dVhiqB7VfmKrQ7SIsdxLBp3bWaaZnoMfg2Xc6sWzEDmj6gUhQNATwdWj4Cwg74u+mgapKLhch1xp
+BGZNeuHgaQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F43%2F38a108779a3f742224ec91d4129181dd6e5daf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uz1idaTrp7rtvenbDw2tR0FGd4QnGbXvCJvbQdbQ4hBNH+yHIcl5TA75DwQpklEpXMmVb2uODS6M
+n36/rGKAfg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F4a%2Fde3b7841618cd02cdf106d3a49f245f39c9935">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4ROZ6CIyiS/Y7giYzE8T9hVqT0azBE0cvP6UUG+EF+Jl2saLGeVIgIxh6wQcv0dvZh5WYUQj5pO
+1fE29Hz2ug==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F4d%2F818f6eda8c64c2c6f831b373d54073303b153e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zWBbGzLqsgAP8zr3KNxry2/lSt9QcJShVDaDL7jplJkI8+hxmbiBX2kQhbzFyNRn1zz5ipS4KpAD
+mTj9en62DA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F54%2F2de5d0571043f6c20fe7a5522d0d1da0fff9f2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Nka+nFQHfY5ITxr/nbsY/VgrbU83MbXrntc3KVs3HZw1kFq/FFcN7F851cN0aeH4Hdmh0gJjQpV/
+vFp/QNGimQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F59%2F79a83d80c7048e7ff17a824eb79c0487069b2c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FfHLmUEztVOi2fcZVi4Ishg85kaGrdkbaC0M7lf20Z7wMoz/6RSiUJSbrbaRKx7fKfzEbmkuClHs
+xIA7YvEWWg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F63%2Fc03fce23967bc99461c9b30869c9ce37e5643f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bKi+OszcHRGB+DSvwWgjSFpYnY7r/NerlkwcixdSj5+LzSf2adOly2HGRboOewoI7fr/isBqtZhX
+0fxIoo20Qg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F6d%2F8a517fed700c842e9766bab715bc0c3803e51e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qSWT5NwcbA+dNI3qJHHhsK2pbic9wGjFLbas+FEKSYbvDLIfVVTAALRNvwzHE/XLEzhzZeX3KnXa
+EMY85bNPRg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F89%2F1c217073f8de0752ab4965f99a044c5f338965">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>h4/iwQn9AYENfMqfbS0DYAp+p5NGEXhuA6T7BVseZD1yoaqYYCuQD/dYyNJiDcvsGF3a/GNCGX5O
+Bz0vX34xYA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2F98%2F49ec408f0324c470fa97ab28f824ad2f668871">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YeUSKQ3m5lOjFoy7+Tu3uTT4dexpFYXoaz9vlvlKlBOguSMiOR+yTdN6CWVhuKajRw6zne8zDJEr
+FEYSQ71n3w==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fb4%2F919e71efaf20d34a281e490bd199950521f737">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6Qq7mKzvcp8IsgnwNvOWUnapSa62UafSRD8FALXQmmg2y0nLsJ/EkL4QKl9TX/CtURalJiOX4OPG
+CW3DOr203w==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fbf%2Fe961c0b8a1e72e0e5c28b1694b1b0f3d8e616b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>i/lzEiz8SaozSMT0ihXY6cvL4hnGomkDuGj3YSWVqwOzIeC/v6sva1uO9PcrL8kpuD87nX4rGMMd
+Lc3k8XhuTw==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fca%2Fe447feaa9b95151039d402996ba250979d0f21">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8pOOkH+VEKw/pQuuPIZ9EG9izncH0QvqBmQdLF0YXAXzpbpBHzQMYC3AtO+pDL5p+OHbieDWecit
+lf1dmE3bEg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fce%2F829314db2b9edc6f541395fe3151ef886123bc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MswbtKvECHsWfQptIQztoSUivSX8bbD64BNTyWfx0Ex0vNwH2Jr7lop6py7XJ+zzi80hFMOerSiM
+S6dJWiNXrQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fd5%2F0a9fa431634b7a5a2f2dcaef20c744c24d0255">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>tD5DdSRPX6xbrjnoxztF/or9It1eerQdLQDVybVhTgpiAEU07ptcLCjrFIZylNyo+xgNZl5dcoOY
+FIb6wcznmQ==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fdb%2Ffc4da6f026fd52a8cfb6987809dca95dcb777a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UHiXU6QB8tVM3f41Yuryr2X0OYwGJoqVgz3vMft/U7RU2hazw47kcc2daso+vYOQCuxAMK7l490x
+DbSY6Z2xwA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fec%2Fea6d24a00fa117da037d345475b82af7d62272">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GTvZnrj2hxOSSli5yOp80Jw8Eq9poUo9lrTaL4nrpAGCYwYYnPoK3DA5LmHt2a/sexMInLWIHgO9
+TEmcFswv7w==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Fee%2Fdcb0d0473936777f9e5118dd264c6d8569b796">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pfsMoGONo/0aeKklKEa57pdxK5tAakc2oVJzQ8YDuOl1jut0iOjoJMs2qyOOkdYxsaWQ0MA1p4ig
+7AruCNy15g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Fobjects%2Ff0%2Fc0fa56970871d4a16f222dc7245deeba2b7c9f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fCs/5X1lyy9DuZw9p2X2ntsKD32faaTqvjVTbXsFB2Y2XZKQkvmOnmnjP3ddfxkcCz7MIb76F2pC
+/i9xKuRgNA==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Frefs%2Fheads%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2F.git%2Frefs%2Fremotes%2Forigin%2Fmain">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MTIcLvGp0/jFF1vybtVytDZweum6C7wYMJHe5nN18pt5io6ZWTqxUAfCxH1/OcWKA9ihrVKsCRI2
+7lwTXXpykg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Fauthor-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>AZhWFrjvxwqT1ilx8752nPwowye38ftQrLn1Ai8RABd4/VJ+AkaT7/2yO5jOaqQqJa2Ks11FAkOL
 wnIru/K33A==</DigestValue>
 </Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Fconfig.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0gYezuWP4q/pS8Q4tj3+JWB+n9+pb5sZY+Q3ntMR0Tbht/zjjIvizU4F0nPnbmB6TIHMCrbL4gin
+TIxdjBWBUg==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Fcss%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>svpmY406DQuRPI4ICV8saKIDkIBGobf16ZqfNeaHGU8/6PhZUbBbMZjECfkwsWg9GgHOQRBnm2TP
+NwslbhT1Og==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Findex.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>W/eAXk0HLNlCjkEBEh7cznqIU+YOKxk/KLWa6P9wkIxGGFhcs6fSGsaKndFzohYEfgHg+kubtmW6
+pQI7aAwR4g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Fjs%2Fiframe_api.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>J+1TcMBA+dQJKsM47Ul71qg/PWIHjf+U7xIajzUfYXbw0WkAEKYURYvXmhavlHBR3eNWA/QhC2vF
+SkU74K7Z2g==</DigestValue>
+</Reference>
+<Reference URI="Debug%2Fprojects%2Flooptube%2Ftizen_web_project.yaml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VU5exRsdg6ijPC8q49VekdV8Ddmcj0hSr4KFkHrt2XPnwMkSvW8bUOCA50V+Yh9n20rd4rdJeTWJ
+0Z85MflVaQ==</DigestValue>
+</Reference>
+<Reference URI="LoopTube.wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TA70aqO8FHrTbtx8TCQ3ALEv2G0Ermqmoxd0V9twdUYYNuA2BVHVVzDpi29Hvi9QuEb92+ylaH+t
+tetWp6+V5A==</DigestValue>
+</Reference>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0Y4rUEivnCm5hsx1clFlKoMmCfBKKPnuCzOipLu2jKy017t/7405W25EYW0qPIj4Xb7Rc3RhAW71
+Xkh3v12U+w==</DigestValue>
+</Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>ClNPfDl9OCLLAL92rTAe0Oi+xclIhYwW/IPxtuBmGaePCgTFbkZ4Pa1n7/jIaoG4L1sJ/Fn9TYcB
-iEKHkMFK7w==</DigestValue>
+<DigestValue>0gYezuWP4q/pS8Q4tj3+JWB+n9+pb5sZY+Q3ntMR0Tbht/zjjIvizU4F0nPnbmB6TIHMCrbL4gin
+TIxdjBWBUg==</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -39,8 +1229,18 @@ NwslbhT1Og==</DigestValue>
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Ge1BFSwT2XCU9EZhr+xnaW1M11IoMKgDEQlfTU/C8/MPXG3yEhvd8hcaTdaeFnE5r00KUVce7mTy
-YAcgfZS8tA==</DigestValue>
+<DigestValue>W/eAXk0HLNlCjkEBEh7cznqIU+YOKxk/KLWa6P9wkIxGGFhcs6fSGsaKndFzohYEfgHg+kubtmW6
+pQI7aAwR4g==</DigestValue>
+</Reference>
+<Reference URI="js%2Fiframe_api.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>J+1TcMBA+dQJKsM47Ul71qg/PWIHjf+U7xIajzUfYXbw0WkAEKYURYvXmhavlHBR3eNWA/QhC2vF
+SkU74K7Z2g==</DigestValue>
+</Reference>
+<Reference URI="tizen_web_project.yaml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VU5exRsdg6ijPC8q49VekdV8Ddmcj0hSr4KFkHrt2XPnwMkSvW8bUOCA50V+Yh9n20rd4rdJeTWJ
+0Z85MflVaQ==</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -52,9 +1252,9 @@ GyvKX9Snig==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Zpu6iviBxHXqBmDrJ/Wnv2WUHXrbdouwtoahgUWv5Nc8E6C7Gu/2+xVAdubHyWEtanqxotgX98nh
-XcpBud5yxFaNSG0vt1dZ0JC6VXkZyK3df8uYUOZ6MNpGch3BDJrP5rUxNtyPk2OXJGTMLutdiECA
-HI8H3BB6qaqguNGUgis=
+WWMsbaUXLeoPIvk4RISogtcwcS0U/M8eO1e3UA0OkfzgCCANaggb/B46opk6PkDKBvSCZrNck/uX
+Pg+FYQmzRnqfnwcN5TIIBStsqj0R71miLGRM+O1KIZzBG4QXabwP5CXG/xJtjwrFKxrlPNtKacOo
++6kPV9uQyGhKsRYtOP4=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
