@@ -3,16 +3,240 @@
 <head>
   <meta charset="UTF-8">
   <title>LoopTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body { margin:0; width:100%; height:100%; background:#000; overflow:hidden; }
-    #player, #player iframe { width:100%; height:100%; border:0; }
+    video { width:100%; height:100%; background:#000; }
+    #status {
+      position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+      color:#fff; font-family:sans-serif; font-size:24px; background:rgba(0,0,0,.85);
+      z-index:10; text-align:center; padding:20px;
+    }
+    #status.hidden { display:none; }
+    #volume {
+      position:fixed; right:20px; bottom:20px; padding:10px 16px;
+      background:rgba(0,0,0,.7); color:#fff; font-family:sans-serif; font-size:20px;
+      border-radius:8px; z-index:11; opacity:0; transition:opacity .3s;
+    }
+    #volume.show { opacity:1; }
   </style>
 </head>
 <body>
-  <div id="player"></div>
-  
-  <script src="js/adblock.js"></script>
-  <script src="js/youtube_iframe_api.js"></script>
+  <video id="player" autoplay playsinline preload="metadata"></video>
+  <div id="status">Carregando playlist…</div>
+  <div id="volume"></div>
 
+  <script>
+    const params = new URLSearchParams(location.search);
+    const SERVER = params.get('server') || localStorage.getItem('looptube_server') || 'https://investors-kilometers-alumni-aims.trycloudflare.com';
+    const PLAYLIST = params.get('playlist') || 'PLw35prD_PecItXU8QwU7dKDBqeGkYDbsQ';
+    const STORAGE_KEY = 'looptube_progress';
+
+    const video = document.getElementById('player');
+    const statusEl = document.getElementById('status');
+    const volumeEl = document.getElementById('volume');
+    let volumeTimer = null;
+    const STORAGE_VOL = 'looptube_volume';
+    function loadVolume() {
+      const v = parseFloat(localStorage.getItem(STORAGE_VOL));
+      video.volume = isFinite(v) ? Math.min(1, Math.max(0, v)) : 1;
+    }
+    function showVolume() {
+      volumeEl.textContent = `Volume: ${Math.round(video.volume * 100)}%`;
+      volumeEl.classList.add('show');
+      clearTimeout(volumeTimer);
+      volumeTimer = setTimeout(() => volumeEl.classList.remove('show'), 1500);
+      try { localStorage.setItem(STORAGE_VOL, String(video.volume)); } catch (_) {}
+    }
+    loadVolume();
+    let urls = [];
+    let currentIndex = 0;
+    let consecutiveErrors = 0;
+    let saveInterval = null;
+    let exiting = false;
+
+    function showStatus(msg) { statusEl.textContent = msg; statusEl.classList.remove('hidden'); }
+    function hideStatus() { statusEl.classList.add('hidden'); }
+
+    function loadProgress() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        if (!saved || typeof saved !== 'object') return null;
+        if (!Number.isInteger(saved.index) || saved.index < 0) return null;
+        if (typeof saved.time !== 'number' || !isFinite(saved.time) || saved.time < 0) return null;
+        return saved;
+      } catch (_) { return null; }
+    }
+
+    function saveProgress() {
+      if (!video || !urls.length) return;
+      try {
+        const state = video.readyState >= 1 ? Math.floor(video.currentTime) : 0;
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          index: currentIndex,
+          time: state
+        }));
+      } catch (_) {}
+    }
+
+    function playAt(index, startTime = 0) {
+      if (!urls.length) return;
+      currentIndex = ((index % urls.length) + urls.length) % urls.length;
+      const url = urls[currentIndex];
+      consecutiveErrors = 0;
+      showStatus('Carregando vídeo…');
+
+      const onMeta = () => {
+        video.removeEventListener('loadedmetadata', onMeta);
+        if (startTime > 0) {
+          try {
+            const target = (video.duration && isFinite(video.duration))
+              ? Math.min(startTime, video.duration - 0.25)
+              : startTime;
+            if (target > 0) video.currentTime = target;
+          } catch (_) {}
+        }
+        hideStatus();
+      };
+      video.addEventListener('loadedmetadata', onMeta, { once: true });
+
+      video.src = url;
+      const p = video.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(err => {
+          console.warn('play():', err);
+          scheduleNext();
+        });
+      }
+    }
+
+    function scheduleNext(delay) {
+      const d = delay || Math.min(1000 * (consecutiveErrors + 1), 5000);
+      setTimeout(() => playAt(currentIndex + 1), d);
+    }
+
+    video.addEventListener('ended', () => {
+      localStorage.removeItem(STORAGE_KEY);
+      consecutiveErrors = 0;
+      playAt(currentIndex + 1);
+    });
+
+    video.addEventListener('playing', () => { consecutiveErrors = 0; hideStatus(); });
+
+    video.addEventListener('error', (e) => {
+      console.warn('Erro no vídeo:', currentIndex, e);
+      consecutiveErrors++;
+      if (consecutiveErrors >= urls.length) {
+        showStatus('Falha ao reproduzir. Recarregando playlist em 15s…');
+        setTimeout(() => { consecutiveErrors = 0; loadPlaylist(); }, 15000);
+        return;
+      }
+      scheduleNext();
+    });
+
+    saveInterval = setInterval(saveProgress, 5000);
+    window.addEventListener('beforeunload', () => {
+      saveProgress();
+      if (saveInterval) clearInterval(saveInterval);
+    });
+
+    try {
+      if (window.tizen && tizen.tvinputdevice) {
+        tizen.tvinputdevice.registerKey('MediaPlayPause');
+        tizen.tvinputdevice.registerKey('MediaPlay');
+        tizen.tvinputdevice.registerKey('MediaPause');
+        tizen.tvinputdevice.registerKey('MediaFastForward');
+        tizen.tvinputdevice.registerKey('MediaRewind');
+        tizen.tvinputdevice.registerKey('VolumeUp');
+        tizen.tvinputdevice.registerKey('VolumeDown');
+        tizen.tvinputdevice.registerKey('VolumeMute');
+      }
+    } catch (_) {}
+
+    function doExit() {
+      if (exiting) return;
+      exiting = true;
+      saveProgress();
+      if (saveInterval) clearInterval(saveInterval);
+      try { tizen.application.getCurrentApplication().exit(); }
+      catch (_) { window.close(); }
+    }
+
+    document.addEventListener('keydown', function (e) {
+      const key = e.keyName || e.key || '';
+      const code = e.keyCode || e.which;
+      let handled = false;
+
+      if (['Enter', 'OK', 'MediaPlayPause', 'MediaPlay', 'MediaPause', ' ', 'Spacebar'].includes(key)
+        || [13, 415, 19].includes(code)) {
+        handled = true;
+        try { video.paused ? video.play() : video.pause(); } catch (_) {}
+      } else if (key === 'ArrowRight' || key === 'MediaFastForward' || code === 39 || code === 417) {
+        handled = true;
+        localStorage.removeItem(STORAGE_KEY);
+        playAt(currentIndex + 1);
+      } else if (key === 'ArrowLeft' || key === 'MediaRewind' || code === 37 || code === 412) {
+        handled = true;
+        localStorage.removeItem(STORAGE_KEY);
+        playAt(currentIndex - 1);
+      } else if (key === 'VolumeUp' || code === 447) {
+        handled = true;
+        video.volume = Math.min(1, video.volume + 0.1);
+        showVolume();
+      } else if (key === 'VolumeDown' || code === 448) {
+        handled = true;
+        video.volume = Math.max(0, video.volume - 0.1);
+        showVolume();
+      } else if (key === 'VolumeMute' || code === 449) {
+        handled = true;
+        video.muted = !video.muted;
+        showVolume();
+      } else if (key === 'back' || key === 'XF86Back' || code === 10009) {
+        handled = true;
+        doExit();
+      }
+
+      if (handled) { e.preventDefault(); e.stopPropagation(); }
+    }, true);
+
+    document.addEventListener('tizenhwkey', function (e) {
+      if (e.keyName === 'back') {
+        e.preventDefault();
+        doExit();
+      }
+    });
+
+    async function loadPlaylist() {
+      consecutiveErrors = 0;
+      const maxAttempts = 3;
+      for (let attempt = 0; attempt <= maxAttempts; attempt++) {
+        try {
+          showStatus(attempt === 0 ? 'Carregando playlist…' : `Tentando novamente (${attempt}/${maxAttempts})…`);
+          const res = await fetch(`${SERVER}/playlist/${encodeURIComponent(PLAYLIST)}`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          if (!Array.isArray(data) || !data.length) throw new Error('Playlist vazia');
+
+          urls = data;
+          const progress = loadProgress();
+          if (progress && progress.index < urls.length) {
+            console.log('Retomando índice', progress.index, 'em', progress.time, 's');
+            playAt(progress.index, progress.time);
+          } else {
+            playAt(0);
+          }
+          return;
+        } catch (e) {
+          console.error('Erro ao carregar playlist:', e);
+          if (attempt < maxAttempts) {
+            await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
+          }
+        }
+      }
+      showStatus('Falha ao carregar playlist. Verifique o servidor.');
+    }
+
+    loadPlaylist();
+  </script>
 </body>
 </html>

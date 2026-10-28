@@ -2,9 +2,11 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:tizen="http://tizen.org/ns/widgets"
         id="http://thiago.com/looptube"
-        version="1.0.0">
+        version="1.1.0">
 
   <name>LoopTube TV</name>
+
+  <icon src="icon.png"/>
 
   <tizen:application id="APPID00001.LoopTube"
                      package="APPID00001"
@@ -17,7 +19,6 @@
   <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
 
   <access origin="*" subdomains="true"/>
-
   <tizen:setting background-support="enable"
                  hwkey-event="enable"/>
 </widget>

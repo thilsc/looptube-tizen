@@ -1,1 +1,6 @@
 Debug/*
+.buildResult/
+*.wgt
+.env
+proxy/.env
+proxy/node_modules
