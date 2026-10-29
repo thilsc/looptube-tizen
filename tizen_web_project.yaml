@@ -27,18 +27,13 @@ trust_anchor: []
 
 # list of files in web project (.html,.css etc) and resources
 files:
-  - .buildResult/.manifest.tmp
-  - .buildResult/author-signature.xml
   - .buildResult/config.xml
-  - .buildResult/css/style.css
   - .buildResult/index.html
+  - .buildResult/css/style.css
+  - .buildResult/icon.png
+  - .buildResult/author-signature.xml
   - .buildResult/signature1.xml
-  - .manifest.tmp
-  - LoopTube.wgt
-  - author-signature.xml
-  - css/style.css
-  - index.html
-  - signature1.xml
+  - .buildResult/.manifest.tmp
 
 # list of files to exclude based on the matched patterns
 excludes:
@@ -61,6 +56,20 @@ excludes:
   - \.tproject
   - \.wgt
   - webUnitTest/*
+  - .git
+  - .git/*
+  - .github
+  - .github/*
+  - .vscode
+  - .vscode/*
+  - .tizen-rds
+  - .tizen-rds/*
+  - proxy
+  - proxy/*
+  - node_modules
+  - node_modules/*
+  - *.md
+  - tizen_web_project.yaml
 
 # project dependencies
 deps: []

@@ -1,0 +1,3435 @@
+{
+  "projectDir": "/home/thiago/Documentos/src/looptube",
+  "deploys": {
+    "next": [
+      {
+        "path": "Debug/projects/looptube/.github/workflows/ci.yml",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/.gitignore",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/.vscode/settings.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/Caddyfile",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/config.xml",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/docker-compose.yml",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/index.html",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/.env",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/.env.example",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/RELATORIO.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/css/style.css",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/.dockerignore",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/.prettierrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/Dockerfile",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/eslint.config.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/acorn",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/eslint",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/mime",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/node-which",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/prettier",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/serve",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.bin/uglifyjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/.package-lock.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/dist/index.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/dist/index.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/dist/index.d.mts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/dist/index.mjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@cacheable/utils/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/index.js.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/index.mjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/index.mjs.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint-community/regexpp/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/dist/esm/index.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/dist/esm/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/dist/esm/types.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/dist/esm/types.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/config-helpers/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/core/dist/esm/types.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/core/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/core/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/core/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/dist/esm/index.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/dist/esm/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/dist/esm/types.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/dist/esm/types.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/object-schema/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/cjs/index.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/cjs/index.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/cjs/types.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/cjs/types.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/esm/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/esm/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/esm/types.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/dist/esm/types.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@eslint/plugin-kit/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/dist/index.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/dist/node-fsx.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/dist/node-hfs.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/src/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/node/src/node-hfs.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/types/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/types/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/types/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/types/src/hfs-types.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanfs/types/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.min.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/dist/retrier.mjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@humanwhocodes/retry/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/dist/index.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/dist/index.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/dist/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/dist/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@keyv/serialize/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/estree/flow.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/estree/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/estree/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/estree/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/estree/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/json-schema/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/json-schema/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/json-schema/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/@types/json-schema/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/accepts/HISTORY.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/accepts/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/accepts/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/accepts/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/accepts/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn-jsx/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn-jsx/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn-jsx/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn-jsx/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn-jsx/xhtml.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/bin/acorn",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/dist/acorn.d.mts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/dist/acorn.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/dist/acorn.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/dist/acorn.mjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/dist/bin.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/acorn/README.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/.tonic_example.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/dist/ajv.bundle.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/dist/ajv.min.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/dist/ajv.min.js.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/async.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/equal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/error_classes.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/formats.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/resolve.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/rules.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/schema_obj.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/ucs2length.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/compile/util.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/data.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/definition_schema.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/_limit.jst",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/_limitItems.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/_limitLength.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/_limitProperties.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/allOf.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/anyOf.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/coerce.def",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/comment.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/const.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/contains.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/custom.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/defaults.def",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/definitions.def",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/dependencies.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/enum.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/errors.def",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/format.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/if.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/items.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/missing.def",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/multipleOf.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/not.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/oneOf.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/pattern.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/properties.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/propertyNames.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/ref.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/required.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/uniqueItems.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dot/validate.jst",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/_limit.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/_limitItems.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/_limitLength.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/_limitProperties.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/allOf.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/anyOf.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/comment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/const.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/contains.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/custom.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/dependencies.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/enum.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/format.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/if.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/items.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/multipleOf.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/not.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/oneOf.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/pattern.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/properties.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/propertyNames.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/README.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/ref.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/required.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/uniqueItems.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/dotjs/validate.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/keyword.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/refs/data.json",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/refs/json-schema-draft-04.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/refs/json-schema-draft-06.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/refs/json-schema-draft-07.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/lib/refs/json-schema-secure.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/.eslintrc.yml",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/bundle.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/compile-dots.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/info",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/prepare-tests",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/publish-built-version",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ajv/scripts/travis-gh-pages",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/.editorconfig",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/.gitattributes",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/lib/index.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/lib/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/LICENSE.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/main/main.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/appdata-path/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/array-flatten/array-flatten.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/array-flatten/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/array-flatten/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/array-flatten/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/dist/esm/index.d.ts",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/dist/esm/index.d.ts.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/dist/esm/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/dist/esm/index.js.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/dist/esm/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/LICENSE.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/balanced-match/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/read.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/types/json.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/types/raw.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/types/text.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/types/urlencoded.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/lib/utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/body-parser/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/brace-expansion/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/bytes/History.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/bytes/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/bytes/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/bytes/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/bytes/Readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/dist/index.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/dist/index.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/dist/index.d.mts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/dist/index.mjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cacheable/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/.eslintrc",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/.github/FUNDING.yml",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/.nycrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/actualApply.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/actualApply.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/applyBind.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/applyBind.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/functionApply.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/functionApply.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/functionCall.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/functionCall.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/reflectApply.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/reflectApply.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/test/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bind-apply-helpers/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/.github/FUNDING.yml",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/.nycrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/test/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/call-bound/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cluster-key-slot/.eslintrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cluster-key-slot/lib/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cluster-key-slot/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cluster-key-slot/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cluster-key-slot/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compressible/HISTORY.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compressible/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compressible/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compressible/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compressible/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/HISTORY.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/ms/license.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/ms/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/ms/readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/HISTORY.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/lib/encoding.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/lib/language.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/lib/mediaType.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/node_modules/negotiator/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/compression/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/content-disposition/package.json",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/content-type/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/content-type/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/content-type/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/content-type/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie-signature/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie-signature/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie-signature/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie-signature/Readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cookie/SECURITY.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cross-spawn/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cross-spawn/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cross-spawn/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/cross-spawn/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/src/browser.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/src/common.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/src/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/debug/src/node.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/.travis.yml",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/example/cmp.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/README.markdown",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/test/cmp.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/test/NaN.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/deep-is/test/neg-vs-pos-0.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/CHANGELOG.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/denque/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/depd/History.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/depd/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/depd/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/depd/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/depd/Readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/destroy/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/destroy/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/destroy/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/destroy/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/browser.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/index.esm.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/detect-node/Readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/.eslintrc",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/.github/FUNDING.yml",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/.nycrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/get.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/get.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/set.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/set.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/dunder-proto/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ee-first/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ee-first/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/ee-first/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/encodeurl/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/encodeurl/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/encodeurl/README.md",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/.nycrc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/test/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-define-property/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/.eslintrc",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/.github/FUNDING.yml",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/CHANGELOG.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/eval.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/eval.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/range.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/range.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/ref.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/ref.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/syntax.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/syntax.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/type.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/type.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/uri.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-errors/uri.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/isObject.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/isObject.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/RequireObjectCoercible.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/RequireObjectCoercible.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/test/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/ToObject.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/ToObject.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/es-object-atoms/tsconfig.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-html/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-html/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-html/Readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-string-regexp/license",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-string-regexp/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/escape-string-regexp/readme.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/dist/eslint-scope.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/assert.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/definition.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/index.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/pattern-visitor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/reference.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/referencer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/scope-manager.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/scope.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/lib/variable.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-scope/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/dist/eslint-visitor-keys.cjs",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/dist/eslint-visitor-keys.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/dist/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/dist/visitor-keys.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/LICENSE",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint-visitor-keys/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/bin/eslint.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/conf/ecma-version.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/conf/globals.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/conf/replacements.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/conf/rule-type-list.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/api.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/cli-engine/hash.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/cli-engine/lint-result-cache.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/cli.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config-api.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config/config-loader.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config/config.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config/default-config.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config/flat-config-array.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/config/flat-config-schema.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/eslint/eslint-helpers.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/eslint/eslint.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/eslint/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/eslint/worker.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/apply-disable-directives.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/code-path-analyzer.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/code-path-segment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/code-path-state.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/code-path.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/debug-helpers.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/fork-context.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/code-path-analysis/id-generator.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/esquery.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/file-context.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/file-report.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/interpolate.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/linter.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/rule-fixer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/source-code-fixer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/source-code-traverser.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/source-code-visitor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/timing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/linter/vfile.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/options.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/array-callback-return.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/array-element-newline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/arrow-body-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/arrow-parens.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/arrow-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/block-scoped-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/block-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/brace-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/callback-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/camelcase.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/capitalized-comments.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/class-methods-use-this.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/comma-dangle.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/comma-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/comma-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/complexity.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/computed-property-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/consistent-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/consistent-this.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/constructor-super.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/curly.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/default-case-last.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/default-case.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/default-param-last.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/dot-location.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/dot-notation.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/eol-last.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/eqeqeq.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/for-direction.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/func-call-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/func-name-matching.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/func-names.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/func-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/function-call-argument-newline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/function-paren-newline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/generator-star-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/getter-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/global-require.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/grouped-accessor-pairs.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/guard-for-in.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/handle-callback-err.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/id-blacklist.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/id-denylist.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/id-length.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/id-match.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/implicit-arrow-linebreak.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/indent-legacy.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/indent.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/index.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/init-declarations.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/jsx-quotes.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/key-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/keyword-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/line-comment-position.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/linebreak-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/lines-around-comment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/lines-around-directive.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/lines-between-class-members.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/logical-assignment-operators.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-classes-per-file.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-depth.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-len.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-lines-per-function.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-lines.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-nested-callbacks.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-params.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-statements-per-line.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/max-statements.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/multiline-comment-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/multiline-ternary.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/new-cap.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/new-parens.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/newline-after-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/newline-before-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/newline-per-chained-call.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-alert.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-array-constructor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-async-promise-executor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-await-in-loop.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-bitwise.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-buffer-constructor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-caller.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-case-declarations.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-catch-shadow.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-class-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-compare-neg-zero.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-cond-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-confusing-arrow.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-console.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-const-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-constant-binary-expression.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-constant-condition.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-constructor-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-continue.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-control-regex.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-debugger.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-delete-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-div-regex.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-dupe-args.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-dupe-class-members.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-dupe-else-if.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-dupe-keys.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-duplicate-case.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-duplicate-imports.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-else-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-empty-character-class.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-empty-function.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-empty-pattern.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-empty-static-block.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-empty.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-eq-null.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-eval.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-ex-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extend-native.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extra-bind.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extra-boolean-cast.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extra-label.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extra-parens.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-extra-semi.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-fallthrough.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-floating-decimal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-func-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-global-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-implicit-coercion.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-implicit-globals.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-implied-eval.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-import-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-inline-comments.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-inner-declarations.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-invalid-regexp.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-invalid-this.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-irregular-whitespace.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-iterator.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-label-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-labels.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-lone-blocks.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-lonely-if.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-loop-func.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-loss-of-precision.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-magic-numbers.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-misleading-character-class.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-mixed-operators.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-mixed-requires.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-mixed-spaces-and-tabs.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-multi-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-multi-spaces.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-multi-str.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-multiple-empty-lines.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-native-reassign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-negated-condition.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-negated-in-lhs.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-nested-ternary.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-func.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-native-nonconstructor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-object.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-require.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-symbol.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new-wrappers.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-new.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-nonoctal-decimal-escape.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-obj-calls.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-object-constructor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-octal-escape.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-octal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-param-reassign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-path-concat.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-plusplus.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-process-env.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-process-exit.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-promise-executor-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-proto.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-prototype-builtins.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-redeclare.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-regex-spaces.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-exports.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-globals.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-imports.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-modules.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-properties.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-restricted-syntax.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-return-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-return-await.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-script-url.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-self-assign.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-self-compare.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-sequences.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-setter-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-shadow-restricted-names.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-shadow.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-spaced-func.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-sparse-arrays.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-sync.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-tabs.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-template-curly-in-string.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-ternary.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-this-before-super.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-throw-literal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-trailing-spaces.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unassigned-vars.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-undef-init.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-undef.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-undefined.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-underscore-dangle.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unexpected-multiline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unmodified-loop-condition.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unneeded-ternary.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unreachable-loop.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unreachable.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unsafe-finally.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unsafe-negation.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unsafe-optional-chaining.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unused-expressions.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unused-labels.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unused-private-class-members.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-unused-vars.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-use-before-define.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-assignment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-backreference.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-call.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-catch.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-computed-key.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-concat.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-constructor.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-escape.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-rename.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-useless-return.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-void.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-warning-comments.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-whitespace-before-property.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/no-with.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/nonblock-statement-body-position.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/object-curly-newline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/object-curly-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/object-property-newline.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/object-shorthand.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/one-var-declaration-per-line.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/one-var.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/operator-assignment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/operator-linebreak.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/padded-blocks.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/padding-line-between-statements.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-arrow-callback.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-const.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-destructuring.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-exponentiation-operator.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-named-capture-group.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-numeric-literals.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-object-has-own.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-object-spread.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-promise-reject-errors.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-reflect.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-regex-literals.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-rest-params.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-spread.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/prefer-template.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/preserve-caught-error.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/quote-props.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/quotes.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/radix.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/require-atomic-updates.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/require-await.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/require-unicode-regexp.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/require-yield.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/rest-spread-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/semi-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/semi-style.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/semi.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/sort-imports.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/sort-keys.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/sort-vars.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/space-before-blocks.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/space-before-function-paren.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/space-in-parens.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/space-infix-ops.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/space-unary-ops.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/spaced-comment.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/strict.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/switch-colon-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/symbol-description.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/template-curly-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/template-tag-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/unicode-bom.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/use-isnan.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/ast-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/char-source.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/code-path-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/fix-tracker.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/keywords.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/lazy-loading-rule-map.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/regular-expressions.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/string-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/unicode/index.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/unicode/is-combining-character.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/unicode/is-emoji-modifier.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/unicode/is-regional-indicator-symbol.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/utils/unicode/is-surrogate-pair.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/valid-typeof.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/vars-on-top.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/wrap-iife.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/wrap-regex.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/yield-star-spacing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/rules/yoda.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/services/parser-service.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/services/processor-service.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/services/suppressions-service.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/services/warning-service.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/ajv.js",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/assert.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/ast-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/deep-merge-arrays.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/directives.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/flags.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/logging.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/message-counts.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/naming.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/option-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/relative-module-resolver.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/runtime-info.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/serialization.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/severity.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/stats.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/string-utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/text-table.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/translate-cli-options.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/shared/traverser.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/types/config-api.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/types/index.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/types/rules.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/types/universal.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/types/use-at-your-own-risk.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/universal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/lib/unsupported-api.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/LICENSE",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/all-matched-files-ignored.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/config-file-missing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/config-plugin-missing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/config-serialize-function.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/eslintrc-incompat.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/eslintrc-plugins.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/extend-config-missing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/failed-to-read-json.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/file-not-found.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/invalid-rule-options.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/invalid-rule-severity.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/no-config-found.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/plugin-conflict.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/plugin-invalid.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/plugin-missing.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/rule-unsupported-language.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/shared.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/messages/whitespace-found.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/package.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/eslint/README.md",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/dist/espree.cjs",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/dist/espree.d.cts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/dist/espree.d.cts.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/dist/espree.d.ts",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/dist/espree.d.ts.map",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/espree.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/looptube/proxy/node_modules/espree/README.md",
+        "type": "modify"
+      }
+    ]
+  }
+}
